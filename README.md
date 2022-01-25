@@ -28,7 +28,7 @@ This is a prototype of a web application that works like a movie theater. In thi
 * PUT: /shopping-carts/movie-sessions - user  
 * GET: /shopping-carts/by-user - user 
 
-##Setup
+## Setup
 1. Install and configure Apache Tomcat(v9.0.50)
 2. Install MySQL with MySQL Workbench
 3. Fork this project on GitHub
