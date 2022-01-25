@@ -3,8 +3,7 @@ This is a prototype of a web application that works like a movie theater. In thi
 ## Technologies used
 * Java
 * Hibernate
-* Spring Framework
-* REST
+* Spring (Core, Web, Security)
 * MySQL
 * Maven
 * Apache Tomcat
@@ -12,22 +11,23 @@ This is a prototype of a web application that works like a movie theater. In thi
 * Data access layer (DAO).
 * Application layer (service).
 * Presentation layer (controllers).
-## Endpoints available
+## Available endpoints, depending on what roles the user has
 * POST: /register - all  
-* POST: /cinema-halls - admin role required  
-* POST: /movies - admin role required    
-* POST: /movie-sessions - admin role required  
-* PUT: /movie-sessions/{id} - admin role required  
-* DELETE: /movie-sessions/{id} - admin role required  
-* GET: /users/by-email - admin role required  
+* POST: /cinema-halls - admin 
+* POST: /movies - admin     
+* POST: /movie-sessions - admin  
+* PUT: /movie-sessions/{id} - admin  
+* DELETE: /movie-sessions/{id} - admin  
+* GET: /users/by-email - admin   
 * GET: /cinema-halls - user/admin  
 * GET: /movies - user/admin  
 * GET: /movie-sessions/available - user/admin  
 * GET: /movie-sessions/{id} - user/admin  
-* GET: /orders - user role required  
-* POST: /orders/complete - user role required  
-* PUT: /shopping-carts/movie-sessions - user role required  
-* GET: /shopping-carts/by-user - user role required
+* GET: /orders - user  
+* POST: /orders/complete - user   
+* PUT: /shopping-carts/movie-sessions - user  
+* GET: /shopping-carts/by-user - user 
+
 ##Setup
 1. Install and configure Apache Tomcat(v9.0.50)
 2. Install MySQL with MySQL Workbench
