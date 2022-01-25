@@ -1,7 +1,6 @@
 package cinema.service.impl;
 
 import cinema.dao.MovieSessionDao;
-import cinema.exception.DataProcessingException;
 import cinema.model.MovieSession;
 import cinema.service.MovieSessionService;
 import java.time.LocalDate;

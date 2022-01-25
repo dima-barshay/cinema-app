@@ -1,7 +1,6 @@
 package cinema.service.impl;
 
 import cinema.dao.UserDao;
-import cinema.exception.DataProcessingException;
 import cinema.model.User;
 import cinema.service.UserService;
 import java.util.Optional;

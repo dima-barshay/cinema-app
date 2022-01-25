@@ -1,7 +1,6 @@
 package cinema.service.impl;
 
 import cinema.dao.RoleDao;
-import cinema.exception.DataProcessingException;
 import cinema.model.Role;
 import cinema.service.RoleService;
 import org.springframework.stereotype.Service;
